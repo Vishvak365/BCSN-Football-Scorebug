@@ -118,4 +118,52 @@
     Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         lblPeriod.Text = "Final"
     End Sub
+
+    Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
+        lblDowns.Text = "1st Down"
+    End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+        lblDowns.Text = "2nd Down"
+    End Sub
+
+    Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
+        lblDowns.Text = "3rd Down"
+    End Sub
+
+    Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
+        lblDowns.Text = "4th Down"
+    End Sub
+
+    Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
+        lblDowns.Text = "1st && Goal"
+    End Sub
+
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
+        lblDowns.Text = "2nd && Goal"
+    End Sub
+
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
+        lblDowns.Text = "3rd && Goal"
+    End Sub
+
+    Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
+        lblDowns.Text = "4th && Goal"
+    End Sub
+
+    Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
+        lblDowns.Text = "FIELD GOAL"
+    End Sub
+
+    Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
+        lblDowns.Text = "Field Goal"
+    End Sub
+
+    Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
+        lblDowns.Text = "EXTRA POINT "
+    End Sub
+
+    Private Sub Button20_Click(sender As Object, e As EventArgs) Handles Button20.Click
+        lblDowns.Text = "Extra Pt."
+    End Sub
 End Class

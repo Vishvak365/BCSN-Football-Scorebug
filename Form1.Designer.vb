@@ -67,6 +67,7 @@ Partial Class Form1
         Me.Button18 = New System.Windows.Forms.Button()
         Me.Button19 = New System.Windows.Forms.Button()
         Me.Button20 = New System.Windows.Forms.Button()
+        Me.lblDowns = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -519,6 +520,19 @@ Partial Class Form1
         Me.Button20.Text = "Clr"
         Me.Button20.UseVisualStyleBackColor = False
         '
+        'lblDowns
+        '
+        Me.lblDowns.AutoSize = True
+        Me.lblDowns.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(56, Byte), Integer))
+        Me.lblDowns.Font = New System.Drawing.Font("Myriad Hebrew", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblDowns.ForeColor = System.Drawing.Color.Gainsboro
+        Me.lblDowns.Location = New System.Drawing.Point(74, 390)
+        Me.lblDowns.Name = "lblDowns"
+        Me.lblDowns.Size = New System.Drawing.Size(105, 72)
+        Me.lblDowns.TabIndex = 48
+        Me.lblDowns.Text = "1st"
+        Me.lblDowns.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(120.0!, 120.0!)
@@ -526,6 +540,7 @@ Partial Class Form1
         Me.AutoSize = True
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(907, 843)
+        Me.Controls.Add(Me.lblDowns)
         Me.Controls.Add(Me.Button20)
         Me.Controls.Add(Me.Button17)
         Me.Controls.Add(Me.Button18)
@@ -621,4 +636,5 @@ Partial Class Form1
     Friend WithEvents Button18 As Button
     Friend WithEvents Button19 As Button
     Friend WithEvents Button20 As Button
+    Friend WithEvents lblDowns As Label
 End Class

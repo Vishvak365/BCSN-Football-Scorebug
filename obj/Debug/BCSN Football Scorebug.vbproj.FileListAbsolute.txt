@@ -1,0 +1,11 @@
+C:\Users\Vishv\Documents\BCSN_Football_Scorebug\BCSN-Football-Scorebug\bin\Debug\BCSN Football Scorebug.exe.config
+C:\Users\Vishv\Documents\BCSN_Football_Scorebug\BCSN-Football-Scorebug\bin\Debug\BCSN Football Scorebug.exe
+C:\Users\Vishv\Documents\BCSN_Football_Scorebug\BCSN-Football-Scorebug\bin\Debug\BCSN Football Scorebug.pdb
+C:\Users\Vishv\Documents\BCSN_Football_Scorebug\BCSN-Football-Scorebug\bin\Debug\BCSN Football Scorebug.xml
+C:\Users\Vishv\Documents\BCSN_Football_Scorebug\BCSN-Football-Scorebug\obj\Debug\BCSN Football Scorebug.vbprojResolveAssemblyReference.cache
+C:\Users\Vishv\Documents\BCSN_Football_Scorebug\BCSN-Football-Scorebug\obj\Debug\BCSN_Football_Scorebug.Form1.resources
+C:\Users\Vishv\Documents\BCSN_Football_Scorebug\BCSN-Football-Scorebug\obj\Debug\BCSN_Football_Scorebug.Resources.resources
+C:\Users\Vishv\Documents\BCSN_Football_Scorebug\BCSN-Football-Scorebug\obj\Debug\BCSN Football Scorebug.vbproj.GenerateResource.Cache
+C:\Users\Vishv\Documents\BCSN_Football_Scorebug\BCSN-Football-Scorebug\obj\Debug\BCSN Football Scorebug.exe
+C:\Users\Vishv\Documents\BCSN_Football_Scorebug\BCSN-Football-Scorebug\obj\Debug\BCSN Football Scorebug.xml
+C:\Users\Vishv\Documents\BCSN_Football_Scorebug\BCSN-Football-Scorebug\obj\Debug\BCSN Football Scorebug.pdb

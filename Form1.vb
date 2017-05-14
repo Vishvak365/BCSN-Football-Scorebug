@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class Vishvak_Seenichamy_BCSN_FB_SB
     Dim scoreHome As Integer
     Dim scoreAway As Integer
 

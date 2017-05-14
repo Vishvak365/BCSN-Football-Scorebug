@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Form1
+Partial Class Vishvak_Seenichamy_BCSN_FB_SB
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Vishvak_Seenichamy_BCSN_FB_SB))
         Me.lblAwayScore = New System.Windows.Forms.Label()
         Me.lblScoreHome = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -533,7 +533,7 @@ Partial Class Form1
         Me.lblDowns.Text = "1st"
         Me.lblDowns.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Form1
+        'Vishvak_Seenichamy_BCSN_FB_SB
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(120.0!, 120.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
@@ -585,7 +585,7 @@ Partial Class Form1
         Me.Controls.Add(Me.lblScoreHome)
         Me.Controls.Add(Me.lblAwayScore)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Name = "Form1"
+        Me.Name = "Vishvak_Seenichamy_BCSN_FB_SB"
         Me.Text = "0"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

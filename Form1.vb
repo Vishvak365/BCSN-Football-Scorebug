@@ -1,6 +1,8 @@
 ﻿Public Class Vishvak_Seenichamy_BCSN_FB_SB
     Dim scoreHome As Integer
     Dim scoreAway As Integer
+    Dim timeOutAway As Integer
+    Dim timeOutHome As Integer
 
 
     Private Sub lblAwayScore_Click(sender As Object, e As EventArgs) Handles lblAwayScore.Click
@@ -120,62 +122,82 @@
     End Sub
 
     Private Sub Button16_Click(sender As Object, e As EventArgs) Handles Button16.Click
-        lblDowns.Location = New Point(53, 312)
+        'lblDowns.Location = New Point(53, 312)
         lblDowns.Text = "1st DOWN"
     End Sub
 
     Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
-        lblDowns.Location = New Point(53, 312)
+        'lblDowns.Location = New Point(53, 312)
         lblDowns.Text = "2nd DOWN"
     End Sub
 
     Private Sub Button14_Click(sender As Object, e As EventArgs) Handles Button14.Click
-        lblDowns.Location = New Point(53, 312)
+        'lblDowns.Location = New Point(53, 312)
         lblDowns.Text = "3rd DOWN"
     End Sub
 
     Private Sub Button13_Click(sender As Object, e As EventArgs) Handles Button13.Click
-        lblDowns.Location = New Point(53, 312)
+        'lblDowns.Location = New Point(53, 312)
         lblDowns.Text = "4th DOWN"
     End Sub
 
     Private Sub Button12_Click(sender As Object, e As EventArgs) Handles Button12.Click
-        lblDowns.Location = New Point(49, 312)
+        'lblDowns.Location = New Point(49, 312)
         lblDowns.Text = "1st && Goal"
     End Sub
 
     Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
-        lblDowns.Location = New Point(49, 312)
+        'lblDowns.Location = New Point(49, 312)
         lblDowns.Text = "2nd && Goal"
     End Sub
 
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
-        lblDowns.Location = New Point(49, 312)
+        'lblDowns.Location = New Point(49, 312)
         lblDowns.Text = "3rd && Goal"
     End Sub
 
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
-        lblDowns.Location = New Point(49, 312)
+        'lblDowns.Location = New Point(49, 312)
         lblDowns.Text = "4th && Goal"
     End Sub
 
     Private Sub Button19_Click(sender As Object, e As EventArgs) Handles Button19.Click
-        lblDowns.Location = New Point(59, 312)
+        'lblDowns.Location = New Point(59, 312)
         lblDowns.Text = "FIELD GL."
     End Sub
 
     Private Sub Button18_Click(sender As Object, e As EventArgs) Handles Button18.Click
-        lblDowns.Location = New Point(44, 312)
+        'lblDowns.Location = New Point(44, 312)
         lblDowns.Text = "2PT CONV."
     End Sub
 
     Private Sub Button17_Click(sender As Object, e As EventArgs) Handles Button17.Click
-        lblDowns.Location = New Point(45, 312)
+        'lblDowns.Location = New Point(45, 312)
         lblDowns.Text = "EXTRA PT."
     End Sub
 
     Private Sub Button20_Click(sender As Object, e As EventArgs) Handles Button20.Click
-        lblDowns.Location = New Point(59, 312)
+        'lblDowns.Location = New Point(59, 312)
         lblDowns.Text = ""
+    End Sub
+
+    Private Sub Vishvak_Seenichamy_BCSN_FB_SB_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub Button26_Click(sender As Object, e As EventArgs) Handles Button26.Click
+        timeOutAway -= 1
+    End Sub
+
+    Private Sub Button21_Click(sender As Object, e As EventArgs) Handles Button21.Click
+        timeOutAway += 1
+    End Sub
+
+    Private Sub Button27_Click(sender As Object, e As EventArgs) Handles Button27.Click
+        timeOutHome -= 1
+    End Sub
+
+    Private Sub Button25_Click(sender As Object, e As EventArgs) Handles Button25.Click
+        timeOutHome += 1
     End Sub
 End Class

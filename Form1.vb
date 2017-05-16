@@ -3,6 +3,7 @@
     Dim scoreAway As Integer
     Dim timeOutAway As Integer
     Dim timeOutHome As Integer
+    Private Declare Function GetAsyncKeyState Lib "user32" (ByVal vKey As Integer) As Short
 
 
     Private Sub lblAwayScore_Click(sender As Object, e As EventArgs) Handles lblAwayScore.Click
@@ -182,22 +183,151 @@
     End Sub
 
     Private Sub Vishvak_Seenichamy_BCSN_FB_SB_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        timeOutAway = 3
+        timeOutHome = 3
     End Sub
 
     Private Sub Button26_Click(sender As Object, e As EventArgs) Handles Button26.Click
         timeOutAway -= 1
+        If timeOutAway = 3 Then
+            topLeftTO.Visible = True
+            MiddleLeftTO.Visible = True
+            BottomLeftTO.Visible = True
+        End If
+        If timeOutAway = 2 Then
+            topLeftTO.Visible = False
+            MiddleLeftTO.Visible = True
+            BottomLeftTO.Visible = True
+        End If
+        If timeOutAway = 1 Then
+            topLeftTO.Visible = False
+            MiddleLeftTO.Visible = False
+            BottomLeftTO.Visible = True
+        End If
+        If timeOutAway = 0 Then
+            topLeftTO.Visible = False
+            MiddleLeftTO.Visible = False
+            BottomLeftTO.Visible = False
+        End If
     End Sub
 
     Private Sub Button21_Click(sender As Object, e As EventArgs) Handles Button21.Click
         timeOutAway += 1
+        If timeOutAway = 3 Then
+            topLeftTO.Visible = True
+            MiddleLeftTO.Visible = True
+            BottomLeftTO.Visible = True
+        End If
+        If timeOutAway = 2 Then
+            topLeftTO.Visible = False
+            MiddleLeftTO.Visible = True
+            BottomLeftTO.Visible = True
+        End If
+        If timeOutAway = 1 Then
+            topLeftTO.Visible = False
+            MiddleLeftTO.Visible = False
+            BottomLeftTO.Visible = True
+        End If
+        If timeOutAway = 0 Then
+            topLeftTO.Visible = False
+            MiddleLeftTO.Visible = False
+            BottomLeftTO.Visible = False
+        End If
     End Sub
 
     Private Sub Button27_Click(sender As Object, e As EventArgs) Handles Button27.Click
         timeOutHome -= 1
+        If timeOutHome = 3 Then
+            TopRightTO.Visible = True
+            MiddleRightTO.Visible = True
+            BottomRightTO.Visible = True
+        End If
+        If timeOutHome = 2 Then
+            TopRightTO.Visible = False
+            MiddleRightTO.Visible = True
+            BottomRightTO.Visible = True
+        End If
+        If timeOutHome = 1 Then
+            TopRightTO.Visible = False
+            MiddleRightTO.Visible = False
+            BottomRightTO.Visible = True
+        End If
+        If timeOutHome = 0 Then
+            TopRightTO.Visible = False
+            MiddleRightTO.Visible = False
+            BottomRightTO.Visible = False
+        End If
     End Sub
 
     Private Sub Button25_Click(sender As Object, e As EventArgs) Handles Button25.Click
         timeOutHome += 1
+        If timeOutHome = 3 Then
+            TopRightTO.Visible = True
+            MiddleRightTO.Visible = True
+            BottomRightTO.Visible = True
+        End If
+        If timeOutHome = 2 Then
+            TopRightTO.Visible = False
+            MiddleRightTO.Visible = True
+            BottomRightTO.Visible = True
+        End If
+        If timeOutHome = 1 Then
+            TopRightTO.Visible = False
+            MiddleRightTO.Visible = False
+            BottomRightTO.Visible = True
+        End If
+        If timeOutHome = 0 Then
+            TopRightTO.Visible = False
+            MiddleRightTO.Visible = False
+            BottomRightTO.Visible = False
+        End If
     End Sub
+
+    Private Sub Button28_Click(sender As Object, e As EventArgs) Handles Button28.Click
+        playerAway.Visible = True
+        playerHome.Visible = False
+    End Sub
+
+    Private Sub Button23_Click(sender As Object, e As EventArgs) Handles Button23.Click
+        playerAway.Visible = 0
+        playerHome.Visible = 1
+    End Sub
+
+    Private Sub Button22_Click(sender As Object, e As EventArgs) Handles Button22.Click
+        timeOutAway = 3
+        topLeftTO.Visible = True
+        MiddleLeftTO.Visible = True
+        BottomLeftTO.Visible = True
+    End Sub
+
+    Private Sub Button24_Click(sender As Object, e As EventArgs) Handles Button24.Click
+        timeOutHome = 3
+        TopRightTO.Visible = True
+        MiddleRightTO.Visible = True
+        BottomRightTO.Visible = True
+    End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        If (GetAsyncKeyState(Keys.D1)) Then
+            lblDowns.Text = "1st DOWN"
+        End If
+        If (GetAsyncKeyState(Keys.D2)) Then
+            lblDowns.Text = "2nd DOWN"
+        End If
+        If (GetAsyncKeyState(Keys.D3)) Then
+            lblDowns.Text = "3rd DOWN"
+        End If
+        If (GetAsyncKeyState(Keys.D4)) Then
+            lblDowns.Text = "4th DOWN"
+        End If
+        If (GetAsyncKeyState(Keys.D5)) Then
+            playerAway.Visible = 1
+            playerHome.Visible = 0
+        End If
+        If (GetAsyncKeyState(Keys.D6)) Then
+            playerAway.Visible = 0
+            playerHome.Visible = 1
+        End If
+    End Sub
+
 End Class

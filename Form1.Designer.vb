@@ -89,6 +89,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         Me.playerHome = New System.Windows.Forms.PictureBox()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.lblScoreHome = New System.Windows.Forms.Label()
+        Me.Button29 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.topLeftTO, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MiddleLeftTO, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -105,10 +106,10 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         Me.lblAwayScore.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(21, Byte), Integer), CType(CType(21, Byte), Integer))
         Me.lblAwayScore.Font = New System.Drawing.Font("Segoe UI", 60.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAwayScore.ForeColor = System.Drawing.Color.White
-        Me.lblAwayScore.Location = New System.Drawing.Point(66, 122)
+        Me.lblAwayScore.Location = New System.Drawing.Point(71, 122)
         Me.lblAwayScore.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblAwayScore.Name = "lblAwayScore"
-        Me.lblAwayScore.Size = New System.Drawing.Size(142, 106)
+        Me.lblAwayScore.Size = New System.Drawing.Size(139, 106)
         Me.lblAwayScore.TabIndex = 1
         Me.lblAwayScore.Text = "0"
         Me.lblAwayScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -439,7 +440,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(352, 393)
+        Me.Label4.Location = New System.Drawing.Point(342, 394)
         Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(134, 36)
@@ -595,7 +596,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         'Button26
         '
         Me.Button26.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button26.Location = New System.Drawing.Point(646, 478)
+        Me.Button26.Location = New System.Drawing.Point(645, 520)
         Me.Button26.Margin = New System.Windows.Forms.Padding(2)
         Me.Button26.Name = "Button26"
         Me.Button26.Size = New System.Drawing.Size(64, 52)
@@ -607,7 +608,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(676, 440)
+        Me.Label5.Location = New System.Drawing.Point(675, 482)
         Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(138, 36)
@@ -618,7 +619,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(675, 532)
+        Me.Label6.Location = New System.Drawing.Point(674, 574)
         Me.Label6.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(139, 36)
@@ -628,7 +629,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         'Button21
         '
         Me.Button21.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button21.Location = New System.Drawing.Point(714, 478)
+        Me.Button21.Location = New System.Drawing.Point(713, 520)
         Me.Button21.Margin = New System.Windows.Forms.Padding(2)
         Me.Button21.Name = "Button21"
         Me.Button21.Size = New System.Drawing.Size(64, 52)
@@ -640,7 +641,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         '
         Me.Button22.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Button22.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button22.Location = New System.Drawing.Point(782, 478)
+        Me.Button22.Location = New System.Drawing.Point(781, 520)
         Me.Button22.Margin = New System.Windows.Forms.Padding(2)
         Me.Button22.Name = "Button22"
         Me.Button22.Size = New System.Drawing.Size(64, 52)
@@ -652,7 +653,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         '
         Me.Button24.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Button24.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button24.Location = New System.Drawing.Point(782, 570)
+        Me.Button24.Location = New System.Drawing.Point(781, 612)
         Me.Button24.Margin = New System.Windows.Forms.Padding(2)
         Me.Button24.Name = "Button24"
         Me.Button24.Size = New System.Drawing.Size(64, 52)
@@ -663,7 +664,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         'Button25
         '
         Me.Button25.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button25.Location = New System.Drawing.Point(714, 570)
+        Me.Button25.Location = New System.Drawing.Point(713, 612)
         Me.Button25.Margin = New System.Windows.Forms.Padding(2)
         Me.Button25.Name = "Button25"
         Me.Button25.Size = New System.Drawing.Size(64, 52)
@@ -674,7 +675,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         'Button27
         '
         Me.Button27.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button27.Location = New System.Drawing.Point(646, 570)
+        Me.Button27.Location = New System.Drawing.Point(645, 612)
         Me.Button27.Margin = New System.Windows.Forms.Padding(2)
         Me.Button27.Name = "Button27"
         Me.Button27.Size = New System.Drawing.Size(64, 52)
@@ -686,7 +687,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         '
         Me.topLeftTO.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.topLeftTO.Image = CType(resources.GetObject("topLeftTO.Image"), System.Drawing.Image)
-        Me.topLeftTO.Location = New System.Drawing.Point(59, 32)
+        Me.topLeftTO.Location = New System.Drawing.Point(60, 32)
         Me.topLeftTO.Name = "topLeftTO"
         Me.topLeftTO.Size = New System.Drawing.Size(12, 62)
         Me.topLeftTO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -697,7 +698,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         '
         Me.MiddleLeftTO.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.MiddleLeftTO.Image = CType(resources.GetObject("MiddleLeftTO.Image"), System.Drawing.Image)
-        Me.MiddleLeftTO.Location = New System.Drawing.Point(59, 102)
+        Me.MiddleLeftTO.Location = New System.Drawing.Point(60, 102)
         Me.MiddleLeftTO.Name = "MiddleLeftTO"
         Me.MiddleLeftTO.Size = New System.Drawing.Size(12, 62)
         Me.MiddleLeftTO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -708,7 +709,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         '
         Me.BottomLeftTO.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.BottomLeftTO.Image = CType(resources.GetObject("BottomLeftTO.Image"), System.Drawing.Image)
-        Me.BottomLeftTO.Location = New System.Drawing.Point(59, 174)
+        Me.BottomLeftTO.Location = New System.Drawing.Point(60, 174)
         Me.BottomLeftTO.Name = "BottomLeftTO"
         Me.BottomLeftTO.Size = New System.Drawing.Size(12, 62)
         Me.BottomLeftTO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -719,7 +720,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         '
         Me.BottomRightTO.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.BottomRightTO.Image = CType(resources.GetObject("BottomRightTO.Image"), System.Drawing.Image)
-        Me.BottomRightTO.Location = New System.Drawing.Point(349, 174)
+        Me.BottomRightTO.Location = New System.Drawing.Point(348, 174)
         Me.BottomRightTO.Name = "BottomRightTO"
         Me.BottomRightTO.Size = New System.Drawing.Size(12, 62)
         Me.BottomRightTO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -730,7 +731,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         '
         Me.MiddleRightTO.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.MiddleRightTO.Image = CType(resources.GetObject("MiddleRightTO.Image"), System.Drawing.Image)
-        Me.MiddleRightTO.Location = New System.Drawing.Point(349, 102)
+        Me.MiddleRightTO.Location = New System.Drawing.Point(348, 102)
         Me.MiddleRightTO.Name = "MiddleRightTO"
         Me.MiddleRightTO.Size = New System.Drawing.Size(12, 62)
         Me.MiddleRightTO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -741,7 +742,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         '
         Me.TopRightTO.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.TopRightTO.Image = CType(resources.GetObject("TopRightTO.Image"), System.Drawing.Image)
-        Me.TopRightTO.Location = New System.Drawing.Point(349, 32)
+        Me.TopRightTO.Location = New System.Drawing.Point(348, 32)
         Me.TopRightTO.Name = "TopRightTO"
         Me.TopRightTO.Size = New System.Drawing.Size(12, 62)
         Me.TopRightTO.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -816,6 +817,18 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         Me.lblScoreHome.Text = "0"
         Me.lblScoreHome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Button29
+        '
+        Me.Button29.BackColor = System.Drawing.Color.Yellow
+        Me.Button29.Font = New System.Drawing.Font("Microsoft Sans Serif", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button29.Location = New System.Drawing.Point(662, 425)
+        Me.Button29.Margin = New System.Windows.Forms.Padding(2)
+        Me.Button29.Name = "Button29"
+        Me.Button29.Size = New System.Drawing.Size(151, 55)
+        Me.Button29.TabIndex = 76
+        Me.Button29.Text = "FLAG"
+        Me.Button29.UseVisualStyleBackColor = False
+        '
         'Vishvak_Seenichamy_BCSN_FB_SB
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
@@ -823,6 +836,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         Me.AutoSize = True
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(905, 674)
+        Me.Controls.Add(Me.Button29)
         Me.Controls.Add(Me.playerHome)
         Me.Controls.Add(Me.playerAway)
         Me.Controls.Add(Me.Button28)
@@ -968,4 +982,5 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
     Friend WithEvents playerHome As PictureBox
     Friend WithEvents Timer1 As Timer
     Friend WithEvents lblScoreHome As Label
+    Friend WithEvents Button29 As Button
 End Class

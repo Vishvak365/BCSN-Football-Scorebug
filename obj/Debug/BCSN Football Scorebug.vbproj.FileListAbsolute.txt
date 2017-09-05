@@ -20,3 +20,4 @@ C:\Users\vishv\Documents\BCSN-Football-Scorebug\obj\Debug\BCSN Football Scorebug
 C:\Users\vishv\Documents\BCSN-Football-Scorebug\obj\Debug\BCSN Football Scorebug.exe
 C:\Users\vishv\Documents\BCSN-Football-Scorebug\obj\Debug\BCSN Football Scorebug.xml
 C:\Users\vishv\Documents\BCSN-Football-Scorebug\obj\Debug\BCSN Football Scorebug.pdb
+C:\Users\vishv\Documents\BCSN-Football-Scorebug\obj\Debug\BCSN Football Scorebug.vbproj.CoreCompileInputs.cache

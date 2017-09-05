@@ -23,6 +23,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim Button30 As System.Windows.Forms.Button
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Vishvak_Seenichamy_BCSN_FB_SB))
         Me.lblAwayScore = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -90,6 +91,11 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.lblScoreHome = New System.Windows.Forms.Label()
         Me.Button29 = New System.Windows.Forms.Button()
+        Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
+        Me.Timersas = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Button30 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.topLeftTO, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.MiddleLeftTO, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -100,6 +106,16 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         CType(Me.playerAway, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.playerHome, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'Button30
+        '
+        Button30.Location = New System.Drawing.Point(396, 55)
+        Button30.Name = "Button30"
+        Button30.Size = New System.Drawing.Size(75, 23)
+        Button30.TabIndex = 77
+        Button30.Text = "startButton"
+        Button30.UseVisualStyleBackColor = True
+        AddHandler Button30.Click, AddressOf Me.Button30_Click
         '
         'lblAwayScore
         '
@@ -829,6 +845,44 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         Me.Button29.Text = "FLAG"
         Me.Button29.UseVisualStyleBackColor = False
         '
+        'Timer2
+        '
+        Me.Timer2.Interval = 1000
+        '
+        'Timersas
+        '
+        Me.Timersas.AutoSize = True
+        Me.Timersas.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(56, Byte), Integer))
+        Me.Timersas.Font = New System.Drawing.Font("Arial", 36.0!)
+        Me.Timersas.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Timersas.Location = New System.Drawing.Point(201, 239)
+        Me.Timersas.Name = "Timersas"
+        Me.Timersas.Size = New System.Drawing.Size(145, 55)
+        Me.Timersas.TabIndex = 78
+        Me.Timersas.Text = "12:00"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox1.Location = New System.Drawing.Point(366, 144)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 13)
+        Me.TextBox1.TabIndex = 79
+        Me.TextBox1.Text = "0:12"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.BackColor = System.Drawing.Color.FromArgb(CType(CType(17, Byte), Integer), CType(CType(33, Byte), Integer), CType(CType(56, Byte), Integer))
+        Me.Label8.Font = New System.Drawing.Font("Arial", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.Gainsboro
+        Me.Label8.Location = New System.Drawing.Point(122, 239)
+        Me.Label8.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(76, 55)
+        Me.Label8.TabIndex = 80
+        Me.Label8.Text = "    "
+        '
         'Vishvak_Seenichamy_BCSN_FB_SB
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
@@ -836,6 +890,11 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         Me.AutoSize = True
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(905, 674)
+        Me.Controls.Add(Me.Timersas)
+        Me.Controls.Add(Me.lblPeriod)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Button30)
         Me.Controls.Add(Me.Button29)
         Me.Controls.Add(Me.playerHome)
         Me.Controls.Add(Me.playerAway)
@@ -879,7 +938,6 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.lblPeriod)
         Me.Controls.Add(Me.btnScoreHome6m)
         Me.Controls.Add(Me.btnScoreHome6)
         Me.Controls.Add(Me.btnScoreHome3m)
@@ -983,4 +1041,8 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
     Friend WithEvents Timer1 As Timer
     Friend WithEvents lblScoreHome As Label
     Friend WithEvents Button29 As Button
+    Friend WithEvents Timer2 As Timer
+    Friend WithEvents Timersas As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label8 As Label
 End Class

@@ -3,7 +3,41 @@
     Dim scoreAway As Integer
     Dim timeOutAway As Integer
     Dim timeOutHome As Integer
+    Dim t As TimeSpan
+    Dim yesorno As Integer
+
     Private Declare Function GetAsyncKeyState Lib "user32" (ByVal vKey As Integer) As Short
+
+
+
+
+
+
+    Private Sub startButton(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+
+    End Sub
+    Private Sub Button30_Click(sender As Object, e As EventArgs)
+        t = New TimeSpan(0, 12, 0)
+        Timer2.Interval = 1000
+        Timer2.Start()
+    End Sub
+    Private Sub Timer2_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer2.Tick
+        If (GetAsyncKeyState(Keys.D7)) Then
+            yesorno = 1
+        End If
+        If (GetAsyncKeyState(Keys.D8)) Then
+            yesorno = 0
+        End If
+        If (yesorno = 1) Then
+            t -= New TimeSpan(0, 0, 1)
+            Timersas.Text = t.ToString.Substring(3)
+        End If
+        If (yesorno = 0) Then
+            t -= New TimeSpan(0, 0, 0)
+            Timersas.Text = t.ToString.Substring(3)
+        End If
+    End Sub
+
 
 
     Private Sub lblAwayScore_Click(sender As Object, e As EventArgs) Handles lblAwayScore.Click
@@ -333,4 +367,6 @@
     Private Sub Button29_Click(sender As Object, e As EventArgs) Handles Button29.Click
         lblDowns.Text = "FLAG"
     End Sub
+
+
 End Class

@@ -93,7 +93,6 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         Me.Button29 = New System.Windows.Forms.Button()
         Me.Timer2 = New System.Windows.Forms.Timer(Me.components)
         Me.Timersas = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label8 = New System.Windows.Forms.Label()
         Button30 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -109,11 +108,12 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         '
         'Button30
         '
-        Button30.Location = New System.Drawing.Point(396, 55)
+        Button30.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Button30.Location = New System.Drawing.Point(657, 389)
         Button30.Name = "Button30"
-        Button30.Size = New System.Drawing.Size(75, 23)
+        Button30.Size = New System.Drawing.Size(162, 31)
         Button30.TabIndex = 77
-        Button30.Text = "startButton"
+        Button30.Text = "Timer Start"
         Button30.UseVisualStyleBackColor = True
         AddHandler Button30.Click, AddressOf Me.Button30_Click
         '
@@ -861,15 +861,6 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         Me.Timersas.TabIndex = 78
         Me.Timersas.Text = "12:00"
         '
-        'TextBox1
-        '
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Location = New System.Drawing.Point(366, 144)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 13)
-        Me.TextBox1.TabIndex = 79
-        Me.TextBox1.Text = "0:12"
-        '
         'Label8
         '
         Me.Label8.AutoSize = True
@@ -893,7 +884,6 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         Me.Controls.Add(Me.Timersas)
         Me.Controls.Add(Me.lblPeriod)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Button30)
         Me.Controls.Add(Me.Button29)
         Me.Controls.Add(Me.playerHome)
@@ -1043,6 +1033,5 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
     Friend WithEvents Button29 As Button
     Friend WithEvents Timer2 As Timer
     Friend WithEvents Timersas As Label
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label8 As Label
 End Class

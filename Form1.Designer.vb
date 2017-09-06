@@ -949,9 +949,10 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         Me.Controls.Add(Me.lblAwayScore)
         Me.Controls.Add(Me.lblScoreHome)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Vishvak_Seenichamy_BCSN_FB_SB"
-        Me.Text = "0"
+        Me.Text = "BCSN Football Scorebug -Vishvak"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.topLeftTO, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.MiddleLeftTO, System.ComponentModel.ISupportInitialize).EndInit()

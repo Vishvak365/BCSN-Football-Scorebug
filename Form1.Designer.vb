@@ -109,11 +109,11 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         'Button30
         '
         Button30.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Button30.Location = New System.Drawing.Point(657, 389)
+        Button30.Location = New System.Drawing.Point(641, 391)
         Button30.Name = "Button30"
-        Button30.Size = New System.Drawing.Size(162, 31)
+        Button30.Size = New System.Drawing.Size(193, 31)
         Button30.TabIndex = 77
-        Button30.Text = "Timer Start"
+        Button30.Text = "Timer Start/Reset"
         Button30.UseVisualStyleBackColor = True
         AddHandler Button30.Click, AddressOf Me.Button30_Click
         '
@@ -779,7 +779,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         'Button23
         '
         Me.Button23.Font = New System.Drawing.Font("Microsoft Sans Serif", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button23.Location = New System.Drawing.Point(644, 55)
+        Me.Button23.Location = New System.Drawing.Point(635, 55)
         Me.Button23.Margin = New System.Windows.Forms.Padding(2)
         Me.Button23.Name = "Button23"
         Me.Button23.Size = New System.Drawing.Size(151, 55)
@@ -790,7 +790,7 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         'Button28
         '
         Me.Button28.Font = New System.Drawing.Font("Microsoft Sans Serif", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button28.Location = New System.Drawing.Point(478, 55)
+        Me.Button28.Location = New System.Drawing.Point(469, 55)
         Me.Button28.Margin = New System.Windows.Forms.Padding(2)
         Me.Button28.Name = "Button28"
         Me.Button28.Size = New System.Drawing.Size(151, 55)
@@ -837,10 +837,10 @@ Partial Class Vishvak_Seenichamy_BCSN_FB_SB
         '
         Me.Button29.BackColor = System.Drawing.Color.Yellow
         Me.Button29.Font = New System.Drawing.Font("Microsoft Sans Serif", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button29.Location = New System.Drawing.Point(662, 425)
+        Me.Button29.Location = New System.Drawing.Point(688, 427)
         Me.Button29.Margin = New System.Windows.Forms.Padding(2)
         Me.Button29.Name = "Button29"
-        Me.Button29.Size = New System.Drawing.Size(151, 55)
+        Me.Button29.Size = New System.Drawing.Size(98, 55)
         Me.Button29.TabIndex = 76
         Me.Button29.Text = "FLAG"
         Me.Button29.UseVisualStyleBackColor = False
